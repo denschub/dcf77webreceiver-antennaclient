@@ -3,20 +3,7 @@
 var net = require("net"),
   Gpio = require("onoff").Gpio,
   Signal = require("./lib/signal.js"),
-
-  settings = {
-    gpio: {
-      port: 17,
-      bindOptions: {
-        persistentWatch: true
-      }
-    },
-    server: {
-      // the servers IP address
-      host: "1.2.3.4",
-      port: 20042
-    }
-  };
+  settings = require("./config");
 
 function onClientConnect() {
   console.log("connected!");
