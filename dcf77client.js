@@ -2,7 +2,7 @@
 
 var net = require("net"),
   Gpio = require("onoff").Gpio,
-  Signal = require("./lib/signal.js"),
+  Signal = require("./lib/signal"),
   settings = require("./config");
 
 function onClientConnect() {
