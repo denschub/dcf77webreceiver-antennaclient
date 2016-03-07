@@ -1,5 +1,5 @@
 {
-  "name": "dcf77webreceiver-client",
+  "name": "dcf77webreceiver-antennaclient",
   "version": "2.0.0",
   "dependencies": {
     "onoff": "1.0.4"
