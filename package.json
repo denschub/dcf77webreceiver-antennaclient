@@ -1,7 +1,7 @@
 {
   "name": "dcf77webreceiver-client",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "dependencies": {
-    "onoff": "0.3.0"
+    "onoff": "1.0.4"
   }
 }
